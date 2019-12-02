@@ -8,10 +8,10 @@ def map(array)
   return new
 end 
 
-def reduce (array, starting_point = 0)
- if starting_point
+def reduce (array, starting_point = nil)
+ if !starting_point
    total = array[0]
-   i = 0
+   i = 1 
  else 
    total = starting_point
    i = 0 
