@@ -20,5 +20,5 @@ def reduce (array, starting_point = 0)
    total = yield(total, array[i])
    i -= -1
  end 
- return total 
+  total 
  end
