@@ -9,9 +9,9 @@ def map(array)
 end 
 
 def reduce (array, starting_point = 0)
- if !starting_point
+ if starting_point
    total = array[0]
-   i = 1 
+   i = 0
  else 
    total = starting_point
    i = 0 
